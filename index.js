@@ -21,5 +21,5 @@ function driversByRevenue(drivers)
     return driver1.revenue - driver2.revenue;
   };
 
-  drivers.sort(revenueSorter);
+  const sortedDrivers = drivers..sort(revenueSorter);
 }
