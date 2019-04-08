@@ -41,4 +41,5 @@ function totalRevenue(drivers)
   {
     return sum + driver.revenue;
   };
+  drivers.reduce(reduceRevenues, 0);
 }
