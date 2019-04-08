@@ -30,4 +30,7 @@ function driversByName(drivers)
   {
     return driver1.localCompare(driver2);
   }
+  let driversCopy = [...drivers];
+  const sortedDrivers = driversCopy.sort(nameSorter);
+  return sortedDrivers;
 }
