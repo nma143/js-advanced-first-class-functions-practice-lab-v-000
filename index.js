@@ -21,6 +21,6 @@ function driversByRevenue(drivers)
     return driver1.revenue - driver2.revenue;
   };
   let driversCopy = [...drivers];
-  const sortedDrivers = drivers.sort(revenueSorter);
+  const sortedDrivers = driversCopy.sort(revenueSorter);
   return sortedDrivers;
 }
