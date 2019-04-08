@@ -24,3 +24,10 @@ function driversByRevenue(drivers)
   const sortedDrivers = driversCopy.sort(revenueSorter);
   return sortedDrivers;
 }
+function driversByName(drivers)
+{
+  const nameSorter = funciton (driver1, driver2)
+  {
+    return driver1.localCompare(driver2);
+  }
+}
