@@ -35,3 +35,11 @@ function driversByName(drivers)
   const sortedDrivers = driversCopy.sort(nameSorter);
   return sortedDrivers;
 }
+function totalRevenue(drivers)
+{
+  const reduceRevenues = function (sum, driver, index, drivers)
+  {
+    return sum + driver.revenue;
+  };
+}
+
