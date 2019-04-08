@@ -26,7 +26,7 @@ function driversByRevenue(drivers)
 }
 function driversByName(drivers)
 {
-  const nameSorter = funciton (driver1, driver2)
+  const nameSorter = funciton compareName(driver1, driver2)
   {
     return driver1.localCompare(driver2);
   };
