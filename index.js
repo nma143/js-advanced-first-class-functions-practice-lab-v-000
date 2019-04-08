@@ -28,7 +28,7 @@ function driversByName(drivers)
 {
   const nameSorter = function(driver1, driver2)
   {
-    return driver1.localCompare(driver2);
+    return driver1.name.localCompare(driver2);
   };
 
   let driversCopy = [...drivers];
