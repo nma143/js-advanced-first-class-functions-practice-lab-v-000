@@ -22,4 +22,5 @@ function driversByRevenue(drivers)
   };
 
   const sortedDrivers = drivers.sort(revenueSorter);
+  return sortedDrivers;
 }
