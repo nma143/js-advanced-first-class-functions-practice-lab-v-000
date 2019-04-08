@@ -20,5 +20,6 @@ function driversByRevenue(drivers)
   {
     return driver1.revenue - driver2.revenue;
   };
-  drivers.sort(f
+
+  drivers.sort(revenueSorter);
 }
