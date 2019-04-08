@@ -5,3 +5,12 @@ function logDriverNames(drivers)
     console.log(driver.name);
   });
 }
+function logDriversByHometown(drivers, location)
+{
+  drivers.forEach(function(driver, location)
+  { 
+    if (driver.hometown == location) {
+      
+    }
+  })
+}
